@@ -1,0 +1,151 @@
+@media (max-width: 500px) {
+  :root {
+    --container-max-width: 380px;
+  }
+
+  .podcasts__title {
+    margin-bottom: 20px;
+  }
+
+  .podcast {
+    padding: 26px 16px 30px;
+    max-width: calc(100% - 112px);
+  }
+
+  .broadcast__container {
+    padding-bottom: 40px;
+  }
+
+  .broadcast__title {
+    margin-bottom: 20px;
+  }
+
+  .broadcast__item {
+    min-width: 112px;
+  }
+
+  .broadcast__list {
+    padding: 10px 32px 30px;
+  }
+
+  .broadcast__card {
+    display: flex;
+    flex-direction: column;
+    padding: 9px 2px 11px 9px;
+    min-height: 99px;
+  }
+
+  .broadcast__btn {
+    max-width: 200px;
+  }
+
+  .card__title {
+    font-size: 12px;
+  }
+
+  .card__descr {
+    padding-right: 7px;
+    margin-bottom: auto;
+    font-size: 9px;
+    line-height: normal;
+  }
+
+  .card__link {
+    font-size: 12px;
+    color: var(--color-primary);
+  }
+
+  .card__link::after {
+    background-image: url("../img/broadcast/link-arrow-hover.svg");
+  }
+
+
+  .broadcast__left {
+    flex-direction: column-reverse;
+    align-self: start;
+    margin-left: 100px;
+    max-width: 200px;
+  }
+
+  .broadcast__descr {
+    margin-bottom: 7px;
+    max-width: 166px;
+  }
+
+  .broadcast__btn {
+    margin-bottom: 12px;
+    padding: 8px 29px;
+  }
+
+  .broadcast__btn::before {
+    left: -92px;
+    top: -72px;
+    width: 77px;
+    height: 105px;
+  }
+
+  .playlists__item {
+    flex-direction: column;
+    max-width: 100%;
+  }
+
+  .playlist__img {
+    align-self: center;
+    width: 113px;
+  }
+
+
+  .playlist__card {
+    max-width: 100%;
+  }
+
+
+  .footer__top {
+    padding-bottom: 0;
+  }
+
+  .footer__social {
+    margin-bottom: 49px;
+  }
+
+  .footer__link {
+    font-size: 12px;
+    max-width: 113px;
+  }
+
+  .footer__nav {
+    position: relative;
+    width: 100%;
+    padding: 26px 0;
+  }
+
+  .footer__top::before {
+    position: absolute;
+    content: "";
+    z-index: -2;
+    top: 185px;
+    left: 0px;
+    width: 100%;
+    height: calc(100% - 185px);
+    background-color: var(--color-black);
+  }
+
+  .footer__nav-list {
+    align-content: start;
+    column-gap: 78px;
+    row-gap: 18px;
+    max-height: 200px;
+  }
+
+  .footer__bottom {
+    padding: 30px;
+    background-color: var(--color-light_black);
+    background-position-y: 9px;
+    background-image: url("../img/footer/footer-bg-sm.svg");
+  }
+
+  .footer__copy {
+    font-size: 12px;
+  }
+
+}

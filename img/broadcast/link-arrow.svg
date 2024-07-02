@@ -1,0 +1,30 @@
+<svg width="28" height="12" viewBox="0 0 28 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="28" height="12" fill="#F2F2F2"/>
+<g id="Desktop" clip-path="url(#clip0_0_1)">
+<rect width="1920" height="6876" transform="translate(-793 -2078)" fill="#E6E8EC"/>
+<g id="broadcast">
+<rect width="1920" height="752" transform="translate(-793 -624)" fill="white"/>
+<g id="&#208;&#148;&#208;&#188;&#208;&#184;&#209;&#130;&#209;&#128;&#208;&#184;&#208;&#185; &#208;&#147;&#209;&#131;&#209;&#130;&#208;&#181;&#208;&#189;&#208;&#177;&#208;&#181;&#209;&#128;&#208;&#179;">
+<g id="broadcasts_card" clip-path="url(#clip1_0_1)">
+<g id="broadcast_01">
+<rect x="-102.5" y="-77.5" width="254" height="111" fill="white"/>
+<rect x="-102.5" y="-77.5" width="254" height="111" stroke="#E6E8EC"/>
+<g id="link_italic_arrow">
+<g id="Frame 131">
+<path id="Arrow 1" d="M24.3536 6.35355C24.5488 6.15829 24.5488 5.84171 24.3536 5.64645L21.1716 2.46447C20.9763 2.2692 20.6597 2.2692 20.4645 2.46447C20.2692 2.65973 20.2692 2.97631 20.4645 3.17157L23.2929 6L20.4645 8.82843C20.2692 9.02369 20.2692 9.34027 20.4645 9.53553C20.6597 9.7308 20.9763 9.7308 21.1716 9.53553L24.3536 6.35355ZM4 6.5H24V5.5H4V6.5Z" fill="#121723"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_0_1">
+<rect width="1920" height="6876" fill="white" transform="translate(-793 -2078)"/>
+</clipPath>
+<clipPath id="clip1_0_1">
+<rect width="255" height="260" fill="white" transform="translate(-103 -226)"/>
+</clipPath>
+</defs>
+</svg>

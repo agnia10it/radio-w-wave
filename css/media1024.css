@@ -1,0 +1,134 @@
+@media (max-width: 1200px) {
+
+  :root {
+    --container-max-width: 888px;
+  }
+
+  .header__container {
+    padding: 28px 0 0;
+    flex-wrap: wrap;
+    gap: 28px;
+  }
+
+  .header__logo-img {
+    max-width: 112px;
+  }
+
+  .header__logo {
+    margin-left: 32px;
+    margin-right: auto;
+  }
+
+  .header__nav {
+    position: relative;
+    order: 3;
+    margin-right: 0;
+    padding: 21px 32px;
+    width: 100%;
+    border-top: 1px solid var(--color-light);
+    border-bottom: 1px solid var(--color-light);
+  }
+
+  .search {
+    margin-right: 32px;
+  }
+
+  .hero__container {
+    padding: calc(var(--container-padding-y) - 3px) 32px;
+    background-image: url("../img/hero-bg-medium.png");
+    background-size: 259px auto;
+    background-position-y: 83px;
+    background-position-x: 95%;
+  }
+
+  .hero__title {
+    max-width: 540px;
+  }
+
+  .hero__descr {
+    margin-bottom: 20px;
+    max-width: 540px;
+  }
+
+  .broadcast {
+    --column: 2;
+  }
+
+  .playlists__container {
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+
+  .playlists__info {
+    max-width: 100%;
+  }
+
+  .playlists__list {
+    --column: 3;
+  }
+
+  .playlists__item {
+    flex-direction: row;
+    justify-content: start;
+  }
+
+  .playlist__img {
+    max-width: 112px;
+  }
+
+  .playlist__card {
+    padding-left: 9px;
+    padding-right: 6px;
+    justify-content: center;
+    max-width: calc(100% - 112px);
+  }
+
+  .playlist__country {
+    left: 0;
+  }
+
+  .promo__left {
+    align-self: center;
+    padding-bottom: 40px;
+    width: calc((100% - var(--gap)) / 2);
+  }
+
+  .promo__right {
+    width: calc((100% - var(--gap)) / 2);
+  }
+
+  .promo__new {
+    top: -4px;
+  }
+
+  .promo__price {
+    margin-bottom: 30px;
+  }
+
+  .promo {
+    padding-bottom: 0;
+  }
+
+  .about__top {
+    padding-right: 34%;
+    background-image: none;
+  }
+
+  .about__main-text {
+    margin-bottom: 8px;
+  }
+
+  .about__top::after {
+    background-position: right 49px;
+    background-size: 31%;
+  }
+
+  .about__container {
+    --person-column: 2;
+    padding-bottom: 92px;
+  }
+
+  .footer__bottom {
+    background-image: url("../img/footer/footer-bg-lg.svg");
+  }
+}

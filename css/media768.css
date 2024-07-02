@@ -1,0 +1,186 @@
+@media (max-width: 992px) {
+  :root {
+    --container-max-width: 604px;
+  }
+
+  .nav__link {
+    font-size: 16px;
+  }
+
+  .header__nav {
+    padding-bottom: 20px;
+  }
+
+  .hero__container {
+    background-image: none;
+  }
+
+  .podcasts__title {
+    margin-bottom: 29px;
+  }
+
+  .podcasts__item {
+    --column: 1;
+  }
+
+  .broadcast__container {
+    padding-bottom: 30px;
+  }
+
+  .broadcast__title {
+    margin-bottom: 63px;
+    width: 100%;
+  }
+
+  .broadcast__content {
+    flex-direction: column-reverse;
+  }
+
+  .broadcast__left {
+    margin-left: 91px;
+    align-self: center;
+    max-width: 255px;
+  }
+
+  .broadcast__btn {
+    margin-bottom: 8px;
+  }
+
+  .broadcast__list {
+    margin: 0 -32px;
+    padding: 60px 32px;
+    border-bottom: 1px solid var(--color-light);
+  }
+
+  .broadcast__btn::before {
+    left: -92px;
+    top: -2px;
+    width: 70px;
+    height: 96px;
+  }
+
+  .guests__text {
+    max-width: 100%;
+  }
+
+  .guest {
+    flex-direction: column;
+  }
+
+  .guest__photo {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .guest__card {
+    max-width: 362px;
+  }
+
+  .guest__descr {
+    margin-bottom: 30px;
+  }
+
+  .playlists__container {
+    padding-bottom: 112px
+  }
+
+  .playlists__list {
+    --column: 2;
+  }
+
+  .promo__container {
+    padding-top: 54px;
+    flex-direction: column;
+  }
+
+  .promo__left {
+    align-self: center;
+    padding-bottom: 20px;
+    width: 100%;
+  }
+
+  .promo__right {
+    width: 100%;
+  }
+
+  .promo__new {
+    top: 0;
+    width: 29.6%;
+  }
+
+  .promo__title {
+    padding-right: 10%;
+  }
+
+  .promo__title::after {
+    background-image: url("../img/promo/promo-bg-md.svg");
+  }
+
+  .promo__price {
+    margin-bottom: 29px;
+  }
+
+  .about__top {
+    padding-right: 0;
+    padding-bottom: 142px;
+  }
+
+  .about__top::before {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    right: 140px;
+    width: 95%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: url("../img/about/spiral-horisont.svg");
+    background-size: contain;
+    background-position: bottom left;
+  }
+
+  .about__top::after {
+    background-position: right bottom;
+    background-size: 21%;
+  }
+
+  .input-label {
+    width: 100%;
+  }
+
+  .footer__top {
+    flex-direction: column;
+    padding-bottom: 77px;
+  }
+
+  .footer__left {
+    margin-left: auto;
+  }
+
+  .footer__social {
+    justify-content: center;
+    margin-bottom: 73px;
+  }
+
+  .social__img {
+    width: 36px;
+    height: 36px;
+  }
+
+  .footer__nav {
+    width: 100%;
+  }
+
+  .nav__list {
+    gap: 15px;
+  }
+
+  .footer__nav-list {
+    row-gap: 28px;
+    max-height: 115px;
+  }
+
+  .footer__bottom {
+    padding: 22px;
+    background-image: url("../img/footer/footer-bg-md.svg");
+  }
+}

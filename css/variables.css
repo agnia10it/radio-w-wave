@@ -1,0 +1,22 @@
+:root {
+  /* цвета */
+  --color-black: #121723;
+  --color-light_black: #292e39;
+  --color-text_gray: #a1a6b4;
+  --color-shade_gray: #d2d5dd;
+  --color-light: #e6e8ec;
+  --color-promo_shade: #bb973e;
+  --color-promo: #f0d288;
+  --color-blue: #0039a6;
+  --color-red: #d52b1e;
+  --color-primary_shade: #4f28a5;
+  --color-primary: #6d31ee;
+  --color-primary_light: #aa9dfa;
+  --color-light_gray: #f5f6f7;
+  --color-white: #fff;
+
+  /* размеры */
+  --container-max-width: 1174px;
+  --container-padding-y: 94px;
+  --gap: 30px;
+}
